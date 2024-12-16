@@ -36,14 +36,23 @@
 
 модель Faster R-CNN https://pytorch.org/vision/master/models/faster_rcnn.html
 project/ 
+
 ├── annotations/ 
+
 │ └── train.csv 
+
 ├── images/ │ 
+
             ├── A3.png │ 
+            
             └── ... # другие изображения 
+            
 ├── train.py 
+
 ├── detect.py 
+
 └── utils.py
+
 
 utils.py — модуль для загрузки и предобработки данных.
 
